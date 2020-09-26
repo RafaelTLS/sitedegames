@@ -1,6 +1,6 @@
 <?php
 	//conecting database
-	$conn = mysqli_connect('games_gamer_br', 'rafatls', 'rafaelthiago18', 'games');
+	$conn = mysqli_connect('localhost', 'admin', 'admin', 'games');
 
 	//check connection
 	if(!$conn) {

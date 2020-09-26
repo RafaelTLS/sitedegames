@@ -7,7 +7,7 @@
 </head>
 <body>
 	<div class="header">
-		<a href="/www/">
+		<a href="/">
 			<h1 class="htitle">MASTURBYTE</h1><br>
 			<h2 class="hsub">O site mais pica do mundo!</h2>
 		</a>

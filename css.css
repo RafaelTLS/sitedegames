@@ -1,0 +1,167 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	background: #1a1a1a;
+	height: auto;
+	width: auto;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Roboto', 'Open Sans', sans-serif;
+	color: #eb4034;
+	position: relative;
+	display: block;
+}
+
+h1, h2 {
+	text-align: center;
+	font-family: 'Oswald', sans-serif;
+}
+
+a, p {
+	text-decoration: none;
+	color: inherit;
+	transition: 0.3s;
+}
+
+h1.htitle {
+	font-size: 90px;
+	color: #fafafa;
+	font-weight: 1000;
+	letter-spacing: -3px;
+	font-kerning: auto;
+	font-family: Oswald !important;
+}
+
+h2.hsub {
+	color: #fafafa;
+	font-size: 30px;
+	font-weight: 500;
+	font-kerning: auto;
+	margin-top: -45px;
+}
+
+a#gametitle, h1#gametitle {
+	font-size: 70px;
+	font-family: 'Roboto', sans-serif;
+	text-transform: uppercase;
+	line-height: 80%;
+	font-weight: bold;
+}
+
+p#byinpage {
+	text-align: center;
+	margin: 0 0 10px 0;
+}
+
+p#text {
+	font-size: 21px;
+	margin: 10px 0 0 0;
+	text-align: justify;
+}
+
+p#text > a {
+	text-decoration: underline;
+}
+
+a:hover {
+	color: #d11147;
+}
+
+h2#gamesubtitle {
+	margin-top: -8px;
+	font-weight: normal;
+}
+
+.header {
+	background-color: #eb4034;
+	height: 150px;
+	padding-bottom: 20px;
+	text-align: center;
+}
+
+.middle {
+	margin: 15px 0 15px 0;
+}
+
+.middle, .newspage, .newsform {
+	background-color: #fafafa;
+	margin: 20px 10% 0 10%;
+	padding: 10px 10px 5px 10px;
+}
+
+.newspage, .newsform {
+	padding: 30px;
+}
+
+.newsform {
+	box-sizing: box;
+	text-align: center;
+}
+
+input, textarea {
+	width: 85%;
+	height: 26px;
+	font-family: Arial;
+	font-size: 16px;
+	padding: 12px 20px;
+	display: inline-block;
+	margin: 8px 0;
+  	border: 1px solid #ccc;
+}
+
+textarea {
+	resize: vertical;
+	height: 100px;
+}
+
+input[type=submit], label {
+	padding-bottom: 30px;
+	text-align: center;
+}
+
+form {
+	width: 400px;
+	display: inline-block;
+}
+
+ul {
+	padding: 0;
+	list-style-type: none;
+}
+
+li {
+	display: flex;
+	flex-wrap: nowrap;
+	padding: 10px;
+	margin: 0;
+}
+
+.headline {
+	padding-left: 25px;
+}
+
+img,video {
+	width: 300px;
+	height: 250px;
+	object-fit: cover;
+	float: left;
+}
+
+img#inpage {
+	float: none;
+	width: 350px;
+	height: auto;
+	display: block;
+	margin: 0 auto 0 auto;
+}
+
+.footer {
+	padding: 30px 0 20px 0;
+	color: #fafafa;
+	text-align: center;
+}
